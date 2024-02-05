@@ -16,7 +16,7 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect('mongodb+srv://gsaini20:Password123@cluster0.oocsd7p.mongodb.net/sample_mflix?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://anuragcase:kp2uiulbXeGxEkH1@cluster0.r663k2k.mongodb.net/sample_mflix?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
